@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 20200111160932) do
     t.index ["todo_list_id"], name: "index_todo_items_on_todo_list_id"
   end
 
+ActiveRecord::Schema.define(version: 20200111160122) do
+
   create_table "todo_lists", force: :cascade do |t|
     t.string "title"
     t.text "description"
