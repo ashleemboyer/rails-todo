@@ -1,3 +1,14 @@
 // Place all the styles related to the todo_items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#todo_items_wrapper {
+  margin-top: 32px;
+}
+
+.todo_item {
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid grey;
+  padding: 12px;
+}
